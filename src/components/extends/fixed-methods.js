@@ -23,8 +23,7 @@ const fixedMethods = {
   //     return this.eTo(e, direction, '.bg');
   // },
   isDragElement: function (e) {
-    console.log('de nieuwe')
-    return this.wrapEl.contains(e.target) && e.target.classList.contains('vuejs-clipper-basic__corner')
+    return this.wrapEl.contains(e.target) && !e.target.classList.contains('vuejs-clipper-basic__corner')
   },
   dragDownPos: function (e) {
     const translatePos = this.translatePos()
