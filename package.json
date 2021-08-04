@@ -6,7 +6,7 @@
     "email": "litingen1995@gmail.com"
   },
   "scripts": {
-    "build": "vue-cli-service build --target lib --name vuejs-clipper src/clipper.js",
+    "build": "",
     "lint": "vue-cli-service lint",
     "test": "vue-cli-service test:unit"
   },
